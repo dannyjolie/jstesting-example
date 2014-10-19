@@ -1,0 +1,51 @@
+body{
+	background-color: whitesmoke;
+}
+table, th, td{
+	/*border: 1px solid grey;*/
+}
+table{
+	border-collapse: collapse;
+}
+h1 {
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: normal;
+	font-size: 2em;
+}
+p, th, td {
+	font-family: Georgia;
+	font-size: 1.2em;
+}
+button {
+	margin: 10px 0;
+	padding: 15px;
+	/*border-radius: 10px;*/
+}
+p[contenteditable="true"]{
+	border: 1px dashed #ddd;
+}
+th {
+	text-align: left;
+}
+td {
+	padding-left: 15px;
+	text-align: right
+}
+.container {
+	width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.very-large {
+	font-size: 40px;
+	text-align: center;
+}
+.code{
+	font-family: monospace;
+	color: blue;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "mochaproject",
+  "version": "1.0.0",
+  "description": "Just something to test the Mocha test framework",
+  "author": "Daniel Martinsen Sjølie",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-test": "^0.12.1",
+    "mocha": "^1.21.4",
+    "sinon": "^1.10.3"
+  },
+  "dependencies": {
+    "requirejs": "^2.1.15"
+  }
+}
